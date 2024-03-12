@@ -14,7 +14,7 @@ const Welcome = () => {
       </video>
       <div className='overlay'></div>
       <div className='content'>
-        <h1>SwiftNOTE</h1>
+        <h1 className='head1'>SwiftNOTE</h1>
       </div>
       <div className='button-select'>
           <button className="button"><span>Register</span><i></i></button>
