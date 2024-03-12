@@ -3,7 +3,7 @@ import { getSvgPathFromStroke } from './utils';
 import { useState, useEffect, useRef} from 'react';
 import {SketchPicker} from 'react-color';
 
-function DrawingPage() {
+function Draw() {
 
   const [globalPoints, setGlobalPoints] = useState<number[][][]>([]);
   const [inputPoints, setInputPoints] = useState<number[][]>([]);
@@ -74,4 +74,4 @@ return (
   )
 }
 
-export default DrawingPage
+export default Draw
