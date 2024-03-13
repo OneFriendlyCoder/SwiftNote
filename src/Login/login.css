@@ -51,7 +51,7 @@ body, html{
 	
 	.login {
 		position: absolute;
-		top: 50%;
+		top: 45%;
 		left: 50%;
 		-webkit-transform: translate(-50%, -50%);
 		width: 65%;
@@ -100,7 +100,7 @@ body, html{
 			border-radius: 15px;
 			background-color: #fff;
 			overflow: hidden;
-			margin-top: -10px;
+			margin-top: -20px;
 			opacity: 1;
 			visibility: visible;
 			-webkit-transition: all .3s ease;

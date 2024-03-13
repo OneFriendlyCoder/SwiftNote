@@ -1,12 +1,12 @@
 import React from 'react'
 import './signup.css'
-import dino1 from '../assets/dino.mp4'
+import signvid from '../assets/signvid.mp4'
 
 const SignUp = () => {
   return (
 	<div className='pt1'>
 	    <video autoPlay muted loop id="background-video1">
-        	<source src={dino1} type="video/mp4" />
+        	<source src={signvid} type="video/mp4" />
       	</video>
 	<div className="form-structor">
 		<div className="signup">
