@@ -1,4 +1,4 @@
-import dino1 from './assets/dino.mp4'
+import dino1 from '../assets/dino.mp4'
 import React from 'react'
 import Box from '@mui/material/Box'
 import { Typography } from '@mui/material'
