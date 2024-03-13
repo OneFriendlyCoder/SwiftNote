@@ -15,7 +15,7 @@ function App() {
           <Route path="/login" element={<Login/>} />   
           <Route path="/signup" element={<SignUp/>} />   
         {/* protected access routes*/}
-
+        <Route path="/draw" element={<Draw/>} />  
         {/*catch other routes*/}
         <Route path="/*" element={<Missing/>} />
       </Routes>

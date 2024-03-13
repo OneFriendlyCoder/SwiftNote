@@ -1,11 +1,6 @@
 
 @import url("https://fonts.googleapis.com/css?family=Fira+Sans");
 
-body, html{
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
 
 .pt1 {
 	position: relative;
@@ -17,6 +12,7 @@ body, html{
 	font-family: "Fira Sans", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
 }
 
 #background-video1{
