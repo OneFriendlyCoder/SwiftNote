@@ -19,10 +19,10 @@ body, html{
   -moz-osx-font-smoothing: grayscale;
 }
 
-.form-structor {
-	background-color: #f9bb01;
+.pt1 .form-structor1 {
+	background-color: #9af75c;
 	border-radius: 15px;
-	height: 550px;
+	height: 540px;
 	width: 350px;
 	position: relative;
 	overflow: hidden;
@@ -30,18 +30,18 @@ body, html{
 	
 	&::after {
 		content: '';
-		opacity: 0.4;
+		opacity: 00.6;
 		position: absolute;
 		top: 0;right:0;bottom:0;left:0;
 		background-repeat: no-repeat;
 		background-position: bottom;
 		background-size: 450px;
-		background-image: url(../assets/flower1.png);
+		background-image: url(../assets/bunny1.png);
 
 		
 	}
 	
-	.signup {
+	.login {
 		position: absolute;
 		top: 50%;
 		left: 50%;
@@ -75,8 +75,8 @@ body, html{
 			-webkit-transition: all .3s ease;
 		}
 		
-		.form-title {
-			color: #0016a3;
+		.form-title1 {
+			color: #f43404;
 			font-size: 3em;
 			text-align: center;
 			
@@ -88,7 +88,7 @@ body, html{
 			}
 		}
 		
-		.form-holder {
+		.form-holder1 {
 			border-radius: 15px;
 			background-color: #fff;
 			overflow: hidden;
@@ -118,7 +118,7 @@ body, html{
 			}
 		}
 		
-		.submit-btn {
+		.submit-btn1 {
 			background-color: rgba(0,0,0,0.4);
 			color: rgba(256,256,256,0.7);
 			border:0;

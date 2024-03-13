@@ -1,5 +1,5 @@
 import Typography from '@mui/material/Typography';
-import Login from './Login';
+import Login from './Login/Login';
 import Draw from './Draw';
 import Missing from './Missing';
 import SignUp from './Signup/SignUp';
