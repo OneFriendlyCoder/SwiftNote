@@ -7,10 +7,10 @@ body, html{
     overflow: hidden;
 }
 
-.pt1 {
+.pt2 {
 	position: relative;
 	min-height: 100vh;
-	background-color: #E1E8EE;
+	background-color: #080808;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -18,8 +18,16 @@ body, html{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+#background-video2{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    object-fit: fill;
+    z-index: 0;
+    top: 0
+}
 
-.pt1 .form-structor1 {
+.pt2 .form-structor1 {
 	background-color: #9af75c;
 	border-radius: 15px;
 	height: 540px;
