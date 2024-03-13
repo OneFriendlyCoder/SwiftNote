@@ -9,8 +9,9 @@ import {Routes, Route} from 'react-router-dom';
 function App() {
   return (
     <>
+
       <Routes>
-        <Route path="/" element={<Welcome />} />
+        <Route path="/" element={<Draw />} />
         {/* public access routes*/}
           <Route path="/login" element={<Login/>} />   
           <Route path="/signup" element={<SignUp/>} />   
@@ -19,6 +20,7 @@ function App() {
         {/*catch other routes*/}
         <Route path="/*" element={<Missing/>} />
       </Routes>
+
     </>
   )
 }
